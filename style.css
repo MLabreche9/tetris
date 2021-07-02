@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(159, 157, 175);
+}
+
+.grid div {
+    height:20px;
+    width:20px;
+}
+
+.tetromino {
+    background-color: rgb(230, 91, 26);
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(198, 241, 241)
+}
+
+.mini-grid div {
+    height: 20px;
+    width:20px;
+}
